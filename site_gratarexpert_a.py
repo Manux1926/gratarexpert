@@ -193,3 +193,118 @@ for _p in _s.SITE['pages']:
         _p['desc'] = _p['desc'].replace('pentru 2027', 'pentru 2026')
     if _p['slug'] == 'index' and '/cel-mai-bun-gratar-2026.html' not in _p['body']:
         _p['body'] = _p['body'].replace('<div class="cards">\n', '<div class="cards">\n' + _CARDS + '\n', 1)
+
+# 28 nov 2026: ghiduri vechi extinse (săptămâna 1 din planul de 30 de zile).
+_GAZ = """<p>Un grătar pe gaz bun ține zece ani sau mai mult. Unul prost ruginește în două sezoane, are flacără inegală și se strică fix în ziua cu musafiri. Diferența nu stă în design, ci în câteva detalii pe care nu le vezi în poza din magazin. Iată la ce să te uiți, în ordinea în care contează.</p>
+<div class="box info"><b>Pe scurt:</b> două arzătoare pentru 2–4 persoane, trei pentru familie și gătit indirect; capac care închide bine; grătare din fontă emailată sau inox gros; arzătoare din inox cu garanție lungă; piese de schimb ușor de găsit în România.</div>
+
+<h2>1. Câte arzătoare îți trebuie</h2>
+<div class="tw"><table class="t"><tr><th>Arzătoare</th><th>Pentru câți</th><th>Ce poți face</th><th>Exemplu</th></tr>
+<tr><td>1–2</td><td>2–4 persoane</td><td>grătar direct, zonă caldă și zonă mai rece</td><td>Weber Q 3200</td></tr>
+<tr><td>3</td><td>4–6 persoane</td><td>gătit indirect: arzătorul din mijloc oprit, carnea deasupra lui</td><td>Weber Spirit E-325S</td></tr>
+<tr><td>4 sau mai multe</td><td>6+ persoane</td><td>zone multiple, bucăți mari și garnituri în același timp</td><td>Weber Genesis EX-435</td></tr></table></div>
+<p>Cel mai important salt este de la două la trei arzătoare. Cu trei, poți găti <strong>indirect</strong>: arzătoarele din margini pornite, cel din mijloc oprit, carnea deasupra lui și capacul închis. Așa se gătesc un pui întreg, o pulpă de porc sau coastele fără să se ardă la exterior. Cu două arzătoare se poate și așa, dar zona utilă e mai mică.</p>
+
+<h2>2. Puterea: de ce cifra mare nu înseamnă grătar mai bun</h2>
+<p>Producătorii afișează puterea totală în kW. Un grătar cu două arzătoare are de obicei 5–8 kW, unul cu trei între 8 și 10 kW. Mai important decât cifra este cât de bine <strong>ține căldura</strong>: un capac masiv care închide bine, o cuvă din aluminiu turnat sau din oțel emailat gros și grătare care acumulează căldură. Un grătar cu 12 kW și capac subțire consumă mai mult gaz și coace mai prost decât unul cu 9 kW bine construit.</p>
+<p>Un detaliu util: zonele de foc intens (Sear Zone la Weber) ajută la crusta fripturii de vită sau a cefei groase. Nu sunt obligatorii, dar se simt dacă îți plac fripturile groase.</p>
+
+<h2>3. Materialele care decid cât ține</h2>
+<ul><li><strong>Grătarele de gătit:</strong> fonta emailată ține căldura și lasă dungi frumoase, dar trebuie uscată după spălare. Inoxul gros (bare de 7–8 mm) e ușor de curățat și nu ruginește. Grătarele subțiri din oțel cromat sunt semnul unui grătar ieftin.</li>
+<li><strong>Cuva și capacul:</strong> aluminiul turnat nu ruginește și ține bine căldura; oțelul emailat este solid și ușor de curățat. Inoxul subțire de calitate slabă poate face pete de rugină, mai ales la îmbinări.</li>
+<li><strong>Arzătoarele:</strong> din inox, cu garanție lungă. Sunt piesa care cedează prima la grătarele ieftine.</li>
+<li><strong>Bara de aromatizare</strong> (plăcile de deasupra arzătoarelor): protejează arzătoarele de grăsime și transformă picăturile în fum aromat. Verifică dacă se găsesc ca piesă de schimb.</li></ul>
+
+<h2>4. Siguranța: butelie, regulator, furtun</h2>
+<p>Grătarele pe gaz se vând de obicei <strong>fără butelie</strong>. Ai nevoie de:</p>
+<ul><li><strong>Regulator de presiune</strong> potrivit grătarului: presiunea corectă este trecută pe eticheta aparatului (de obicei 30 sau 50 mbar). Un regulator greșit înseamnă flacără prea mică sau prea mare.</li>
+<li><strong>Furtun</strong> pentru gaz, în termen de valabilitate, fără fisuri, și prins cu coliere.</li>
+<li><strong>Testul cu apă și săpun</strong> la fiecare montare a buteliei: dacă apar bule la racorduri, ai o scurgere. Nu folosi niciodată o flacără pentru test.</li></ul>
+<p><strong>Iarna</strong> contează și tipul de gaz. Butanul trece greu în stare gazoasă la temperaturi în jurul și sub 0 °C, iar flacăra slăbește; propanul funcționează și la frig mare. Dacă faci grătar și iarna, întreabă de butelie cu propan sau cu amestec bogat în propan.</p>
+<p>Verifică și regulamentul blocului: pe unele terase și balcoane, buteliile sunt interzise de asociație sau de regulile de siguranță la incendiu.</p>
+
+<h2>5. Accesorii care chiar se folosesc</h2>
+<ul><li><strong>Termometru în capac</strong> precis: îți spune temperatura reală la gătit indirect.</li>
+<li><strong>Sistem de colectare a grăsimii</strong> ușor de scos: cel greu de curățat ajunge să ia foc.</li>
+<li><strong>Arzător lateral</strong> pentru sosuri și garnituri, util la grătarele de familie.</li>
+<li><strong>Grătare interschimbabile</strong> (sistemul GBS la Weber): pui în centru o plită, un wok sau o piatră de pizza.</li>
+<li><strong>Husă</strong>, dacă grătarul stă afară tot anul.</li></ul>
+{{CARDS:weber-q-3200,weber-spirit-e-325s,weber-genesis-ex-435}}
+
+<h2>6. Garanția și piesele de schimb</h2>
+<p>Un grătar bun se repară, nu se aruncă. Înainte să cumperi, verifică dacă în România se găsesc arzătoare, grătare și bare de aromatizare pentru modelul respectiv și cât durează garanția pe fiecare componentă (cuvă, arzătoare, grătare). Mărcile mari oferă garanții voluntare de mai mulți ani pe corp și arzătoare, peste garanția legală de 2 ani. Păstrează bonul și înregistrează produsul.</p>
+
+<h2>Greșeli frecvente la cumpărare</h2>
+<ul><li>Alegi după numărul de kW, nu după cât de bine închide capacul.</li>
+<li>Cumperi un grătar prea mic „pentru că oricum facem doar mici”, apoi vrei să faci și pulpă de porc la Paște.</li>
+<li>Uiți de butelie, regulator și furtun în buget.</li>
+<li>Iei un model fără piese de schimb în țară.</li></ul>
+<p>Dacă ai ajuns la Weber și te întrebi ce serie să alegi, vezi <a href="/weber-q-vs-spirit.html">Weber Q vs Spirit</a>. Pentru toate tipurile de grătar, inclusiv pe cărbune, vezi <a href="/cel-mai-bun-gratar-2026.html">cel mai bun grătar în 2026</a> și <a href="/tipuri-de-gratar.html">tipurile de grătar</a>.</p>
+<p class="note">Surse: fișele tehnice Weber și ale magazinelor Hornbach și Altex România; instrucțiunile producătorilor de regulatoare pentru GPL. Verifică întotdeauna manualul grătarului tău.</p>""" + NOTE
+
+_CARB = """<p>Cărbunele de lemn și brichetele fac același lucru: dau jar pentru grătar. Se comportă însă diferit, iar alegerea schimbă cât de repede pornești, cât ține focul, cât consumi și cât de ușor controlezi temperatura. Iată diferențele, cât îți trebuie și cum aprinzi corect.</p>
+<div class="box info"><b>Pe scurt:</b> cărbunele în bucăți pentru grătar rapid și foc mare (mici, fripturi subțiri); brichetele pentru sesiuni lungi și gătit indirect. Aprinde-le cu un coș de aprindere (horn), fără lichid de aprindere.</div>
+
+<h2>Comparația pe scurt</h2>
+<div class="tw"><table class="t"><tr><th></th><th>Cărbune de lemn (bucăți)</th><th>Brichete</th></tr>
+<tr><td>Aprindere</td><td>rapidă</td><td>mai lentă</td></tr>
+<tr><td>Temperatură</td><td>mare, dar inegală</td><td>constantă</td></tr>
+<tr><td>Cât arde</td><td>mai puțin</td><td>mai mult</td></tr>
+<tr><td>Cenușă</td><td>puțină</td><td>mai multă</td></tr>
+<tr><td>Bun pentru</td><td>mici, ceafă subțire, legume, grătar scurt</td><td>gătit indirect, bucăți mari, afumat, sesiuni de 2+ ore</td></tr></table></div>
+
+<h2>Cărbunele de lemn în bucăți</h2>
+<p>Este lemn carbonizat, păstrat în forma bucăților. Se aprinde repede, atinge temperaturi mari și lasă puțină cenușă, așa că e ideal pentru un grătar rapid după serviciu. Bucățile au însă mărimi diferite, așa că focul e mai puțin uniform, iar jarul se consumă mai repede. Fii atent la sacii cu mult praf și bucăți foarte mici: ard prost și înfundă grătarul.</p>
+<p>La cumpărare, caută cărbune din <strong>lemn de esență tare</strong> (fag, carpen, stejar) și, ideal, cu certificare FSC, care arată că lemnul vine din păduri gestionate responsabil.</p>
+
+<h2>Brichetele</h2>
+<p>Brichetele sunt cărbune măcinat și presat în forme egale, de obicei cu un liant natural (amidon). Se aprind mai greu, dar odată pornite ard mult și la o temperatură constantă, de aceea sunt preferate pentru gătit indirect, pentru bucățile mari și pentru afumat. Alege brichete <strong>fără aditivi chimici</strong> de aprindere: cele „care se aprind singure” sunt impregnate cu substanțe care pot lăsa miros și gust.</p>
+
+<h2>Cât consumi</h2>
+<p>Pentru un grătar de 1–2 ore pe un grătar rotund de 57 cm, 2–3 kg sunt de obicei suficiente. Un coș de aprindere plin este o măsură bună pentru o sesiune obișnuită de grătar direct. Pentru gătit indirect lung (o pulpă de porc, coaste), pornești cu mai puțin jar și adaugi brichete pe parcurs.</p>
+<p>Socotește cantitatea pentru petrecerea ta, cu tot cu carne și mici, în <a href="/">calculatorul de grătar</a>.</p>
+
+<h2>Cum aprinzi corect: coșul de aprindere</h2>
+<ol><li>Pune 1–2 cuburi de aprindere naturale (sau hârtie mototolită) pe grătarul de jos.</li>
+<li>Umple coșul de aprindere cu cărbune sau brichete și așază-l deasupra.</li>
+<li>Aprinde cuburile. Aerul trage prin coș ca printr-un horn.</li>
+<li>După 15–20 de minute, când stratul de sus s-a acoperit de cenușă albă, răstoarnă jarul în grătar.</li></ol>
+<p><strong>Evită lichidul de aprindere:</strong> lasă gust neplăcut cărnii și este periculos dacă îl torni peste jar deja aprins.</p>
+
+<h2>Când e gata focul și cum îl controlezi</h2>
+<p>Jarul e gata când e acoperit cu un strat subțire de cenușă albă și nu mai face flacără. Testul palmei: ține mâna la 10–12 cm deasupra grătarului. Dacă o retragi după 2–3 secunde, focul e mare (bun pentru mici și crustă); la 5–7 secunde, e mediu (pui, legume).</p>
+<p>Pentru control mai bun, împarte jarul: <strong>o zonă cu jar mult</strong> pentru rumenit și <strong>o zonă fără jar</strong> unde muți carnea ca să se termine de gătit fără să se ardă. Pe un grătar cu capac, clapetele de aer reglează temperatura: mai deschise înseamnă foc mai mare.</p>
+
+<h2>Siguranța</h2>
+<ul><li>Nu folosi niciodată grătarul cu cărbuni în spații închise, în garaj sau pe balcon închis: jarul produce monoxid de carbon, un gaz fără miros.</li>
+<li>Lasă cenușa să se răcească complet (poate ține jar peste 24 de ore) înainte s-o arunci, într-un recipient metalic.</li>
+<li>Ține copiii și animalele departe de grătar și de coșul de aprindere, care se încinge foarte tare.</li></ul>
+{{CARDS:weber-master-touch-57}}
+<p>Vrei un grătar pe cărbune bun? Vezi <a href="/cel-mai-bun-gratar-2026.html">cel mai bun grătar în 2026</a>. Dacă te gândești să treci pe gaz, citește <a href="/gratar-pe-gaz-cum-alegi.html">cum alegi un grătar pe gaz</a>.</p>
+<p class="note">Surse: recomandările producătorilor de grătare și combustibili pentru grătar; ghidurile de siguranță privind monoxidul de carbon. Cantitățile sunt orientative și depind de grătar, vânt și temperatura de afară.</p>""" + NOTE
+
+_UPD = {
+    'gratar-pe-gaz-cum-alegi': dict(
+        body=_GAZ, modified='2026-11-28', date_ro='28 noiembrie 2026',
+        title='Cum alegi un grătar pe gaz: ghid de cumpărare 2026',
+        desc='Ce contează la un grătar pe gaz: câte arzătoare, puterea reală, materiale, butelie și regulator, garanție și piese. Ghid de cumpărare cu exemple și greșeli de evitat.',
+        faq=[('Câte arzătoare trebuie să aibă un grătar pe gaz?',
+              'Două arzătoare ajung pentru 2–4 persoane. Trei arzătoare îți permit gătitul indirect (arzătorul din mijloc oprit) și sunt potrivite pentru familii de 4–6 persoane.'),
+             ('Ce regulator îmi trebuie pentru grătarul pe gaz?',
+              'Unul cu presiunea indicată pe eticheta grătarului, de obicei 30 sau 50 mbar. Folosește un furtun pentru gaz în termen de valabilitate și verifică racordurile cu apă și săpun.'),
+             ('Pot folosi grătarul pe gaz iarna?',
+              'Da. La temperaturi în jurul sau sub 0 °C, butanul trece greu în stare gazoasă și flacăra slăbește, așa că propanul sau un amestec bogat în propan funcționează mai bine.')]),
+    'carbune-sau-brichete': dict(
+        body=_CARB, modified='2026-11-28', date_ro='28 noiembrie 2026',
+        title='Cărbune sau brichete pentru grătar? Diferențe și consum',
+        desc='Cărbune de lemn sau brichete: cum ard, cât țin, cât consumi la un grătar de 2 ore, cum aprinzi corect cu coșul de aprindere și cum controlezi focul.',
+        faq=[('Ce e mai bun pentru grătar, cărbunele sau brichetele?',
+              'Cărbunele în bucăți se aprinde repede și dă foc mare, bun pentru mici și fripturi subțiri. Brichetele ard mai mult și mai constant, potrivite pentru gătit indirect și sesiuni lungi.'),
+             ('Câți kilograme de cărbune îmi trebuie pentru un grătar?',
+              'Pentru 1–2 ore pe un grătar rotund de 57 cm, de obicei 2–3 kg. Pentru gătit indirect lung, adaugi brichete pe parcurs.'),
+             ('Cum aprind cărbunele fără lichid de aprindere?',
+              'Cu un coș de aprindere (horn) și 1–2 cuburi de aprindere naturale. După 15–20 de minute, când stratul de sus e acoperit de cenușă albă, răstorni jarul în grătar.')]),
+}
+for _p in _s.SITE['pages']:
+    if _p['slug'] in _UPD:
+        _p.update(_UPD[_p['slug']])
